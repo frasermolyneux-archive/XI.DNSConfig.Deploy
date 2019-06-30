@@ -78,7 +78,6 @@ $dnsConfiguration = @(
             @{
                 "type" = "SRV"
                 "name" = "_ts3._udp.ts.xtremeidiots.com"
-                #"content" = "1\t9182\tts.xtremeidiots.com"
                 "ttl" = 1
                 "data" = @{
                     "service" = "_ts3"
