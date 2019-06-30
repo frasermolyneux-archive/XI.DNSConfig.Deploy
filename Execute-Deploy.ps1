@@ -49,7 +49,7 @@ $dnsConfiguration | ForEach-Object {
 
         Write-Information "Processing DNS entry [$($expectedDnsEntry.type)] $($expectedDnsEntry.name)"
 
-        $actualDnsEntry = $actualDnsEntries | Where-Object {$_.name -eq $expectedDnsEntry.name}
+        $actualDnsEntry = $actualDnsEntries | Where-Object {$_.type -eq $expectedDnsEntry.type -and $_.name -eq $expectedDnsEntry.name}
 
         if ($null -eq $actualDnsEntry) {
             Write-Information "DNS entry [$($expectedDnsEntry.type)] $($expectedDnsEntry.name) does not exist in zone $zoneName"
