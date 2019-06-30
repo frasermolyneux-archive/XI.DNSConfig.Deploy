@@ -5,7 +5,7 @@ $dnsConfiguration = @(
             @{
                 "type" = "A"
                 "name" = "ftp.xtremeidiots.net"
-                "content" = "Execute-Deploy.ps1"
+                "content" = "158.69.3.21"
                 "ttl" = 1
             }
             @{
