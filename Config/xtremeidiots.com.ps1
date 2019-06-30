@@ -75,21 +75,21 @@ $dnsConfiguration = @(
                 "priority" = 1
                 "ttl" = 1
             }
-            # @{
-            #     "type" = "SRV"
-            #     "name" = "_ts3._udp.ts.xtremeidiots.com"
-            #     "content" = "1\t9182\tts.xtremeidiots.com"
-            #     "ttl" = 1
-            #     "data" = @{
-            #         "service" = "_ts3"
-            #         "proto" = "_udp"
-            #         "name" = "ts"
-            #         "weight" = 1
-            #         "port" = 9182
-            #         "target" = "ts.xtremeidiots.com"
-            #         "priority" = 1
-            #     }
-            # }
+            @{
+                "type" = "SRV"
+                "name" = "_ts3._udp.ts.xtremeidiots.com"
+                "content" = "1\t9182\tts.xtremeidiots.com"
+                "ttl" = 1
+                "data" = @{
+                    "service" = "_ts3"
+                    "proto" = "_udp"
+                    "name" = "ts"
+                    "weight" = 1
+                    "port" = 9182
+                    "target" = "ts.xtremeidiots.com"
+                    "priority" = 1
+                }
+            }
             @{
                 "type" = "TXT"
                 "name" = "mandrill._domainkey.xtremeidiots.com"
