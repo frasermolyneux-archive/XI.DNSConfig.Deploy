@@ -42,7 +42,7 @@ $dnsConfiguration = @(
             }
             @{
                 "type" = "CNAME"
-                "name" = "test-portal.xtremeidiots.com"
+                "name" = "portal-test.xtremeidiots.com"
                 "content" = "xtremeidiotsportal-test.uqrpz33mvb.us-east-2.elasticbeanstalk.com"
                 "ttl" = 1
                 "proxied" = $true
