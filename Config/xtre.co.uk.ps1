@@ -5,7 +5,7 @@ $dnsConfiguration = @(
             @{
                 "type" = "CNAME"
                 "name" = "geolocation.xtre.co.uk"
-                "content" = "geolocation-prd.2iwteg8pdg.us-east-2.elasticbeanstalk.com"
+                "content" = "xtremeidiotsgeolocation-live.b6daqqmr6n.us-east-2.elasticbeanstalk.com"
                 "ttl" = 1
                 "proxied" = $true
             }
