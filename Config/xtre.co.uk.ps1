@@ -1,6 +1,6 @@
 $dnsConfiguration = @(
     @{
-        "ZoneName" = "xtremeidiots.net"
+        "ZoneName" = "xtre.co.uk"
         "DnsEntries" = @(
             @{
                 "type" = "CNAME"
