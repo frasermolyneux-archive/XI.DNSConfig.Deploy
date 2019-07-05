@@ -47,6 +47,13 @@ $dnsConfiguration = @(
                 "ttl" = 1
                 "proxied" = $true
             }
+            @{
+                "type" = "CNAME"
+                "name" = "sourcebans-test.xtremeidiots.net"
+                "content" = "xtremeidiotssourcebans-test.qkpc3nsgzp.us-east-2.elasticbeanstalk.com"
+                "ttl" = 1
+                "proxied" = $true
+            }
         )
     }
 )
