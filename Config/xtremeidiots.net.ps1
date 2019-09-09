@@ -37,20 +37,13 @@ $dnsConfiguration = @(
             @{
                 "type" = "CNAME"
                 "name" = "sourcebans-mysql.xtremeidiots.net"
-                "content" = "aa1uqn2xdm4ol0m.cs2um88u8ax2.us-east-2.rds.amazonaws.com"
+                "content" = "xtremeidiots-db-mysql.cs2um88u8ax2.us-east-2.rds.amazonaws.com"
                 "ttl" = 1
             }
             @{
                 "type" = "CNAME"
                 "name" = "sourcebans.xtremeidiots.net"
-                "content" = "xtremeidiotssourcebans-prd.qkpc3nsgzp.us-east-2.elasticbeanstalk.com"
-                "ttl" = 1
-                "proxied" = $true
-            }
-            @{
-                "type" = "CNAME"
-                "name" = "sourcebans-test.xtremeidiots.net"
-                "content" = "xtremeidiotssourcebans-test.qkpc3nsgzp.us-east-2.elasticbeanstalk.com"
+                "content" = "xtremeidiotssourcebans-legacy-prd.qkpc3nsgzp.us-east-2.elasticbeanstalk.com"
                 "ttl" = 1
                 "proxied" = $true
             }
