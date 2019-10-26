@@ -35,15 +35,15 @@ $dnsConfiguration = @(
             }
             @{
                 "type" = "CNAME"
-                "name" = "portal.xtremeidiots.com"
-                "content" = "xtremeidiotsportal-live.uqrpz33mvb.us-east-2.elasticbeanstalk.com"
+                "name" = "portal-test.xtremeidiots.com"
+                "content" = "xtremeidiotsportal-test.uqrpz33mvb.us-east-2.elasticbeanstalk.com"
                 "ttl" = 1
                 "proxied" = $true
             }
             @{
                 "type" = "CNAME"
-                "name" = "portal-test.xtremeidiots.com"
-                "content" = "xtremeidiotsportal-test.uqrpz33mvb.us-east-2.elasticbeanstalk.com"
+                "name" = "portal.xtremeidiots.com"
+                "content" = "xtremeidiotsportal-live.uqrpz33mvb.us-east-2.elasticbeanstalk.com"
                 "ttl" = 1
                 "proxied" = $true
             }
