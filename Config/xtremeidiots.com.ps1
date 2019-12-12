@@ -4,6 +4,12 @@ $dnsConfiguration = @(
         "DnsEntries" = @(
             @{
                 "type" = "A"
+                "name" = "112.xtremeidiots.com"
+                "content" = "192.99.235.196"
+                "ttl" = 1
+            }
+            @{
+                "type" = "A"
                 "name" = "mod-mc.xtremeidiots.com"
                 "content" = "192.95.22.174"
                 "ttl" = 1
